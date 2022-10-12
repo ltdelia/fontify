@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+pre {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  clear: both;
+  color: #fff;
+  background: #1b1b1b;
+  padding: 0;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -ms-word-break: normal;
+  word-break: normal;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  position: relative;
+  line-height: 28px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+code {
+  font-size: inherit;
+}
+
+/* Code in text */
+p > code,
+li > code,
+dd > code,
+td > code {
+  background: #ffeff0;
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
+}
